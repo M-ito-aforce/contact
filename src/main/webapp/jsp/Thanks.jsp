@@ -10,7 +10,8 @@
 <p>メール：<%= request.getAttribute("email") %></p>
 <p>問い合わせ内容：<%= request.getAttribute("contact") %></p>
 
-<p>選択オプション：
+<p>選択オプション：<%= request.getAttribute("option") %></p>
+
 <%
   String[] option = (String[])request.getAttribute("options");
   if (option != null) {
@@ -19,6 +20,5 @@
     }
   }
 %>
-</p>
 
 <%@ include file="/footer.html" %>
