@@ -12,9 +12,9 @@
 
 <p>選択オプション：
 <%
-  String[] options = (String[])request.getAttribute("options");
-  if (options != null) {
-    for (String opt : options) {
+  String[] option = (String[])request.getAttribute("options");
+  if (option != null) {
+    for (String opt : option) {
       out.print(opt + " ");
     }
   }

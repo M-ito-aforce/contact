@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" %>
 <%@include file="../header.html" %>
-<form action ="contact" method="post">
+<form action ="Contact" method="post">
 <p>氏名</p>
 <input type ="text" name="user" required>
 <p>会社</p>
